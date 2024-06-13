@@ -50,7 +50,7 @@
 @media only screen and (max-width: 768px) {
     .section-main .main-page-container {
         width: fit-content;
-        padding: 0 20px;
+        padding: 120px 20px;
     }
 }
 
@@ -182,7 +182,7 @@
 
     .text-content .typing-text {
         overflow: hidden;
-        white-space: wrap;
+        white-space: nowrap;
         border-right: 4px solid #1de2d1;
         animation: typing 10s steps(25) infinite;
     }
@@ -193,7 +193,7 @@
         }
 
         50% {
-            width: 12ch;
+            width: 22ch;
         }
 
         100% {
