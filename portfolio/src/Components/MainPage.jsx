@@ -35,7 +35,7 @@ const MainPage = () => {
       setReact(true);
     } else if (e.target.id == "Sass") {
       setSass(true);
-    }else if (e.target.id == "Flutter") {
+    } else if (e.target.id == "Flutter") {
       setFlutter(true);
     }
   };
@@ -145,13 +145,19 @@ const MainPage = () => {
                 //   onMouseEnter={handleMouseEnter}
                 //   onMouseLeave={handleMouseLeave}
               >
-                <img src={flutterIco} className="tech-ico3" alt="Flutter icon" />
+                <img
+                  src={flutterIco}
+                  className="tech-ico3"
+                  alt="Flutter icon"
+                />
                 <span>{flutter ? "Flutter" : ""}</span>
               </div>
             </div>
           </div>
-          <div className="right-container">
-            {/* <Canvas>
+        </div>
+
+        <div className="right-container">
+          {/* <Canvas>
             <OrbitControls enableZoom={false} />
             <ambientLight intensity={1} />
             <directionalLight position={(3, 2, 1)} />
@@ -164,8 +170,7 @@ const MainPage = () => {
               />
             </Sphere>
           </Canvas> */}
-            <img src={profile} className="avatar" alt="avatar" />
-          </div>
+          <img src={profile} className="avatar" alt="avatar" />
         </div>
       </div>
     </div>

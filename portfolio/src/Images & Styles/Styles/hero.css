@@ -4,7 +4,7 @@
 
 .section-main .main-page-container {
     width: 90%;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 150px;
     display: flex;
     font-family: "Nunito", sans-serif;
@@ -14,12 +14,12 @@
     .section-main .main-page-container {
         flex-direction: column;
         width: 100%;
-        margin-top: 100px;
+        margin-top: 80px;
     }
 }
 
 .section-main .main-page-container .left-container {
-    width: 55%;
+    width: 50%;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -57,7 +57,7 @@
 @media only screen and (max-width: 280px) {
     .section-main .main-page-container {
         width: fit-content;
-        padding: 0 20px;
+        padding: 0 5px;
     }
 }
 
@@ -74,7 +74,7 @@
 }
 
 .section-main .main-page-container .left-container .hello-ico {
-    width: 70px;
+    width: 50px;
     margin-left: 10px;
 }
 
@@ -102,7 +102,6 @@
 }
 
 .text-content .typing-text {
-    /* margin-left: 0; */
     overflow: hidden;
     white-space: nowrap;
     border-right: 4px solid #1de2d1;
@@ -177,13 +176,13 @@
 @media only screen and (max-width: 768px) {
     .section-main .main-page-container .left-container .description {
         font-size: 1.6em;
-        width: 85%;
+        width: 100%;
         text-align: left;
     }
 
     .text-content .typing-text {
         overflow: hidden;
-        white-space: nowrap;
+        white-space: wrap;
         border-right: 4px solid #1de2d1;
         animation: typing 10s steps(25) infinite;
     }
@@ -194,7 +193,7 @@
         }
 
         50% {
-            width: 22ch;
+            width: 12ch;
         }
 
         100% {
@@ -235,7 +234,7 @@
 }
 
 .section-main .main-page-container .left-container .tech-stack-box .tech-stack-single-box {
-    margin-top: 30px;
+    margin-top: 20px;
     width: 100px;
     height: 100px;
     background-color: #658b6f;
@@ -246,6 +245,7 @@
     box-shadow: 0 0 10px rgb(0, 0, 0);
     margin-right: 40px;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 1110px) {
@@ -308,7 +308,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 45%;
+    width: 50%;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -317,15 +317,23 @@
     }
 }
 
-@media only screen and (min-width: 280px) and (max-width: 768px) {
+@media only screen and (max-width: 360px) {
     .section-main .right-container .avatar {
         display: inline-block;
         position: relative;
-        right: -160px;
-        margin: 0;
-        padding: 0;
+        right: -40px;
+        margin: 0 auto;
+       
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .section-main .right-container {
+        width: 90%;
+        margin-left: 0;
+    }
+}
+
 
 .section-main .right-container .avatar {
     width: 20em;

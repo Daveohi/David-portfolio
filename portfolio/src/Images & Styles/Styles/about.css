@@ -103,4 +103,23 @@
     width: 80px;
 }
 
+.media-icons a {
+    display: inline-flex;
+    position: relative;
+    /* left: 0; */
+    padding: 5px;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    opacity: 0.7;
+    color: #2c3350;
+    transition: all 0.3s ease;
+}
+
+.media-icons a:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
 /*# sourceMappingURL=aboutme.css.map */

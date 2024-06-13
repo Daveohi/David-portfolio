@@ -1,6 +1,6 @@
 .section-contact {
-    padding-top: 150px;
-    height: 90vh;
+    padding-top: 100px;
+    height: 100vh;
 }
 
 .section-contact .contact-container {
@@ -19,7 +19,7 @@
 
 .section-contact .contact-container .right-container {
     width: 70%;
-    height: 100vh;
+    /* height: 5vh; */
     position: relative;
     margin-right: 0px;
 }
@@ -92,7 +92,7 @@
 }
 
 .section-contact .contact-container .left-container form span {
-    margin-top: 20px;
+    /* margin-top: 5px; */
     margin-left: 30px;
 }
 
@@ -110,10 +110,27 @@
     .section-contact .contact-container .left-container .contact {
         font-size: 1em;
     }
+
+    .media-icons a {
+        display: block;
+        position: relative;
+        left: 0;
+        margin-top: 8px;
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+        opacity: 0.7;
+        color: #2c3350;
+        transition: all 0.3s ease;
+    }
+
+    .media-icons a:hover {
+        opacity: 1;
+    }
 }
 
 .section-contact .contact-container .left-container .contact span {
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     display: flex;
     align-items: center;
 }

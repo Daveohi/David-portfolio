@@ -159,10 +159,12 @@
         position: absolute;
         top: 27px;
         left: 0;
-        background-color: #ffff;
+        /* background-color: #ffff; */
         width: 100%;
-        padding: 4px;
+        padding: 5px;
         margin-top: 20px;
+        transition-behavior: ease-in-out, 0.5s;
+        transition: all 0.3s ease;
        
         /* height: 42px; */
 
@@ -171,7 +173,7 @@
 
     ul li {
         margin: 0;
-        text-align: center;
+        text-align: left;
         width: 100%;
         padding: 0;
     }
